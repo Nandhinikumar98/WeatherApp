@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif; /* font */
+    box-sizing: border-box; /* behaviour of width and length */
+}
+body{
+    background: #222; /* for bg colour */
+}
+/*style for search box bg*/
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: rgb(11, 98, 151);
+    color: #fff;
+    margin: 100px auto 0; 
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+/*style for search box */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*style for input which give inside search box*/
+.search input{ 
+    border: 0;
+    outline: 0;
+    background: #c4e5ee;
+    color: #130202;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+/*style for search button bg*/
+.search button{
+    border: 0;
+    outline: 0;
+    background: #c4e5ee;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+/*style for search icon img*/
+.search button img{
+    width: 25px;
+    align-items: center;
+}
+/*style for weather icon*/
+.weathericon{
+    width: 170px;
+    margin-top: 30px;
+}
+/*style for temp display*/
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+/*style for climate display*/
+.weather h2{
+    font-size: 80px;
+    font-weight: 500;
+}
+/*style for city name*/
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/*to hide default weather data from webpage*/
+.weather{
+    display: none;
+}
+
+/*for invalid city name*/
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
